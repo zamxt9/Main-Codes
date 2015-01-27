@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_workspace/install
+
+Name: serial
+Description: Description of serial
+Version: 1.1.7
+Cflags: -I/home/ubuntu/catkin_workspace/install/include
+Libs: -L/home/ubuntu/catkin_workspace/install/lib -lserial
+Requires: 

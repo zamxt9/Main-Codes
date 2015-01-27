@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_workspace/install
+
+Name: sp_auv
+Description: Description of sp_auv
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/catkin_workspace/install/lib 
+Requires: 

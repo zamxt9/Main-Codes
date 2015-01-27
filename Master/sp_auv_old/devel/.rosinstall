@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/rubaina/catkin_workspace/src/sp_auv/devel/setup.sh

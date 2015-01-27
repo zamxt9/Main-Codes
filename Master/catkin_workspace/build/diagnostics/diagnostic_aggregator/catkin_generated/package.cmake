@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "diagnostic_aggregator")
+set(diagnostic_aggregator_MAINTAINER "Isaac Saito <130s@alumni.smu.edu>, Brice Rebsamen <brice.rebsamen@gmail.com>")
+set(diagnostic_aggregator_DEPRECATED "")
+set(diagnostic_aggregator_VERSION "1.7.10")
+set(diagnostic_aggregator_BUILD_DEPENDS "diagnostic_msgs" "pluginlib" "roscpp" "rospy" "rostest" "xmlrpcpp")
+set(diagnostic_aggregator_RUN_DEPENDS "diagnostic_msgs" "pluginlib" "roscpp" "rospy" "xmlrpcpp")
+set(diagnostic_aggregator_BUILDTOOL_DEPENDS "catkin")

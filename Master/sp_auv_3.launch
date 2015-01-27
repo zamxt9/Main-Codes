@@ -1,0 +1,14 @@
+<launch>
+  <node pkg="sp_auv" type="sp_auv_depth" name="sp_auv_depth" respawn="false">
+     <param name="port" type="str" value="/dev/ttyUSB1" />
+     <param name="baud" type="str" value="9600" />
+  </node>
+  <node pkg="SpartonCompass" type="SpartonCompass.py" name="SpartonCompass" respawn="false">
+    <param name="port" value="/dev/ttyUSB0" />
+    <param name="baud" value="19200" />
+    <param name="frequency" value="1" />
+  </node>
+  <node pkg="rosserial_python" type="serial_node.py" name="serial_node">
+        <param name="port" value="/dev/ttyACM0" />
+  </node>  
+</launch>

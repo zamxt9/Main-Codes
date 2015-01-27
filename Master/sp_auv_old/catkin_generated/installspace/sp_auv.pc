@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: sp_auv
+Description: Description of sp_auv
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "sp_auv")
+set(sp_auv_MAINTAINER "rubaina <rubaina.khan@sp.edu.sg>")
+set(sp_auv_DEPRECATED "")
+set(sp_auv_VERSION "0.0.0")
+set(sp_auv_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(sp_auv_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(sp_auv_BUILDTOOL_DEPENDS "catkin")
